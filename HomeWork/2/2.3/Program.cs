@@ -1,34 +1,22 @@
-﻿// Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
-int power(int foundation, int power)
+﻿// Задача 3. Напишите программу, которая выводит третью цифру заданного числа или сообщает, 
+// что третьей цифры нет.
+
+int prompt(string message)
 {
-    if (power == 0) { return 1; }
-     счетчик int = 1;
-    int ответ = 1;
-    while (счетчик <= мощность)
-    {
-        ответ = ответ * фундамент;
-        счетчик++;
-    }
-    вернуть ответ;
+    Console.Write(message);
+    string number = Console.ReadLine();
+    int numberInt = int.Parse(number);
+    return numberInt;
+
 }
-int abs( номер int)
+int numberInt = prompt("Введите число ");
+if (numberInt < 100) Console.WriteLine ("Третьей цифры нет");
+else
 {
-    if (number < 0) { number = -число; }
-    возвращаемый номер;
-}
-Console.WriteLine("Введите любое число цифр (желательно более 1000)");
-строка numStr = Console.ReadLine();
-int number = int.Parse(numStr);
-if (number <= 99 && number >= -99) { Console.WriteLine("Недостаточно цифр"); }
-ещё
-{
-    int остаток = abs(число);
-    int цифры = 0;
-    while (остаток != 0)
+    while (numberInt > 999)
     {
-        цифры++;
-        остаток = остаток / 10;
+        numberInt = numberInt / 10;
     }
-    int ThirdDigit = (число / мощность(10, цифры - 3)) % 10;
-    Console.WriteLine($"Третья цифра {number} равна {ThirdDigit}");
+    numberInt = numberInt % 10;
+    Console.WriteLine("третья цифра числа: " + numberInt);
 }
