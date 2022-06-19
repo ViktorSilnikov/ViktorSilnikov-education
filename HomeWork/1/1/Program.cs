@@ -1,16 +1,24 @@
-﻿// Задача 4: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-int приглашение(строковое сообщение)
-{
-    Console.WriteLine(сообщение);
-    string text = Console.ReadLine();
-    int number = int.Parse(текст);
-    возвращаемый номер;
-}
+﻿//Задача 1. 
 
-int num = prompt("Введите число для дня недели");
-if (num < 1 || num > 7) { Console.WriteLine("В неделе всего 7 дней"); }
+Console.Write("Вставить первое число :");
+строка number1 = Console.ReadLine();
+
+Console.Write("Вставить второе число :");
+строка number2 = Console.ReadLine();
+
+int number1Int = int.Parse(number1);
+int number2Int = int.Parse(number2);
+int max=0, min=0;
+
+если (number1Int>number2Int)
+{
+    max = number1Int; 
+    min = number2Int;
+    Console.WriteLine($"первое число больше и равно : {max}\nВторое число меньше и равно");
+}
 ещё
 {
-    if (num < 6) { Console.WriteLine("Это рабочийдень"); }
-    else { { Console.WriteLine("Это выходные"); } }
+    max = number2Int;
+    min = number1Int;
+    Console.WriteLine ($"второе число больше и равно : {max}\nПервое число меньше и равно");
 }
