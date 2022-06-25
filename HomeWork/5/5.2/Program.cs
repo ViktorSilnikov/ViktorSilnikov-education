@@ -19,17 +19,17 @@ void printArr(int[] arr)
     System.Console.WriteLine();
 }
 
-int SumOddPositions (int[] arr)
+int SumOddPositions(int[] arr)
 {
     int SumOdd = 0;
-    for(int i = 0; i<arr.Length; i+=2)
+    for (int i = 0; i < arr.Length; i += 2)
     {
         SumOdd += arr[i];
     }
-    System.Console.WriteLine ($"SumOddPositions в массиве => {SumOdd}");
     return SumOdd;
 }
 
-int[] myArray = CreateAndFillArr(10,0,10);
+int[] myArray = CreateAndFillArr(10, 0, 10);
 printArr(myArray);
-SumOddPositions(myArray);
+var sum = SumOddPositions(myArray);
+System.Console.WriteLine($"Sum Odd Positions в массиве => {sum}");
