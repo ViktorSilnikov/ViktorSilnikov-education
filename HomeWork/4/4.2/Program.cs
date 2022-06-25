@@ -12,6 +12,5 @@ for (index = 0; index < lenght; index++) ;
     var tmp = inum % 10;
     inum = inum / 10;
     sum = sum + tmp;
-    index = index++;
 }
 Console.Write($"Сумма цифр числа {istring} равна {sum}");
