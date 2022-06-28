@@ -3,3 +3,13 @@ C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj
 C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj\Debug\net6.0\5.3.AssemblyInfoInputs.cache
 C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj\Debug\net6.0\5.3.AssemblyInfo.cs
 C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj\Debug\net6.0\5.3.csproj.CoreCompileInputs.cache
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\bin\Debug\net6.0\5.3.exe
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\bin\Debug\net6.0\5.3.deps.json
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\bin\Debug\net6.0\5.3.runtimeconfig.json
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\bin\Debug\net6.0\5.3.dll
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\bin\Debug\net6.0\5.3.pdb
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj\Debug\net6.0\5.3.dll
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj\Debug\net6.0\refint\5.3.dll
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj\Debug\net6.0\5.3.pdb
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj\Debug\net6.0\5.3.genruntimeconfig.cache
+C:\Users\Виктор\OneDrive\Рабочий стол\GitEdu\HomeWork\5\5.3\obj\Debug\net6.0\ref\5.3.dll

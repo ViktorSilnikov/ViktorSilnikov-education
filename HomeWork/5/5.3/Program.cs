@@ -39,7 +39,7 @@ int FindDifferenceBetweenMinMax(int[] arr)
     difference = max - min;
     return difference;
 }
-int[] myArray = CreateAndFillArr(0, 20, 50);
+int[] myArray = CreateAndFillArr(10, 0, 50);
 printArr(myArray);
-var diff = FindDifferenceBetweenMinMax(myArray);
+var dif = FindDifferenceBetweenMinMax(myArray);
 System.Console.WriteLine($"Difference betwen max and min = , {dif}");
