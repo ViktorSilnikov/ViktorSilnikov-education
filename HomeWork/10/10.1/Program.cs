@@ -2,7 +2,7 @@
 using System.Text;
 void RecursiveNRepeated(int N)
 {
-    if (N == 0)
+    if (N == 12)
     {
         return;
     }
