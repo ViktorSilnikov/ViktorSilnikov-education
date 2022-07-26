@@ -4,15 +4,15 @@
     Console.WriteLine("Введите значения через запятую: "); //текстовое представление заданного значения
     
     var input = Console.ReadLine(); // Объявлена переменная Var
-    string[] array = input.Split(",");  //ввод переменых через запятую
+    string[] array = input.Split(",");  //массив, ввод переменых через запятую
 
 var result = new string[array.Length];
-var realSize = 0; // указан размер
+var realSize = 0; 
 foreach (var value in array) // перебор массива
 {
     if (value.Length <= 3) //введено при условии задачи 
     {
-        result[realSize] = value;
+        result[realSize] = value; // результирующий массив
         realSize++;
     }
 }
